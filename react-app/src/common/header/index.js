@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import { HeaderWrapper, Nav, Logo, NavItem, NavSearch } from "./style.js";
 class Header extends Component {
@@ -18,3 +19,17 @@ class Header extends Component {
 }
 
 export default Header;
+=======
+import React, { Component } from 'react';
+import { HeaderWrapper } from './style.js'
+class Header extends Component {
+    render() {
+        return (
+            <HeaderWrapper>header</HeaderWrapper>
+        );
+    }
+}
+
+
+export default Header;
+>>>>>>> e642245b4de6b5a7e575677fe6971ef10dbeab14

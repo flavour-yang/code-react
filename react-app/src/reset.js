@@ -1,6 +1,10 @@
 import { createGlobalStyle } from 'styled-components'
 
+<<<<<<< HEAD
 export  const GlobalStyle = createGlobalStyle`html, body, div, span, applet, object, iframe,
+=======
+createGlobalStyle`html, body, div, span, applet, object, iframe,
+>>>>>>> e642245b4de6b5a7e575677fe6971ef10dbeab14
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
