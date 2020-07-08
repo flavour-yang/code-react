@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 import React, { Component } from "react";
-import { HeaderWrapper, Nav, Logo, NavItem, NavSearch } from "./style.js";
+import { HeaderWrapper, Nav, Logo, NavItem, NavSearch, Addition, Button } from "./style.js";
 class Header extends Component {
   render() {
     return (
@@ -13,23 +12,11 @@ class Header extends Component {
           <NavItem className="right">登陆</NavItem>
           <NavItem className="right">Aa</NavItem>
         </Nav>
+        <Addition> <Button className="action icon icon-pen">写文章</Button><Button className="reg">注册</Button></Addition>
+
       </HeaderWrapper>
     );
   }
 }
 
 export default Header;
-=======
-import React, { Component } from 'react';
-import { HeaderWrapper } from './style.js'
-class Header extends Component {
-    render() {
-        return (
-            <HeaderWrapper>header</HeaderWrapper>
-        );
-    }
-}
-
-
-export default Header;
->>>>>>> e642245b4de6b5a7e575677fe6971ef10dbeab14

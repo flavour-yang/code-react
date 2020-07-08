@@ -16,6 +16,8 @@ export const Nav = styled.div`
   width: 960px;
   height: 100%;
   margin: 0 auto;
+  padding-right: 70px;
+  box-sizing: border-box;
 `
 
 export const NavItem = styled.div`
@@ -45,4 +47,26 @@ export const NavSearch = styled.input.attrs({
     color: #999;
   }
 `
-// export const 
+export const Addition = styled.div`
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 56px;
+`
+
+export const Button= styled.div`
+  float: right;
+  margin-top: 9px;
+  margin-right: 20px;
+  padding: 0 20px;
+  line-height: 38px;
+  border-radius: 19px;
+  border: 1px solid #ec6149;
+  &.reg{
+    color: #ec6149
+  }
+  &.action{
+    background-color: #ec6149;
+    color: #fff;
+  }
+`
