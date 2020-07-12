@@ -18,6 +18,7 @@ export const GlobalIconStyle = createGlobalStyle`
 }
 
 .icon-pen:before {
+<<<<<<< HEAD
   content: "\\e608";
 }
 
@@ -30,5 +31,18 @@ export const GlobalIconStyle = createGlobalStyle`
 }
 
 
+=======
+  content: "\e608";
+}
+
+.icon-Aa:before {
+  content: "\e636";
+}
+
+.icon-sousuo:before {
+  content: "\e618";
+}
+
+>>>>>>> 1b98e14ec5068e3313a13fb788a27f003b8db4f1
 `
 
