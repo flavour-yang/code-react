@@ -2,11 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.js';
 import App from './App';
-<<<<<<< HEAD
-
-=======
-import './reset.js'
->>>>>>> e642245b4de6b5a7e575677fe6971ef10dbeab14
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
